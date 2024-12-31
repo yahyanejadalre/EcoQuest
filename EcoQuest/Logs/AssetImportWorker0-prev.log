@@ -1,0 +1,372 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.10f1 (ff3792e53c62) revision 16725906'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'it' Physical Memory: 14188 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/erimo/OneDrive - Politecnico di Milano/Desktop/Git/E-Health-Project/EcoQuest
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59737
+Successfully changed project path to: C:/Users/erimo/OneDrive - Politecnico di Milano/Desktop/Git/E-Health-Project/EcoQuest
+C:/Users/erimo/OneDrive - Politecnico di Milano/Desktop/Git/E-Health-Project/EcoQuest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9704] Host "[IP] 192.168.1.88 [Port] 0 [Flags] 2 [Guid] 3162447495 [EditorId] 3162447495 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EEE4NBNL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9704] Host "[IP] 192.168.1.88 [Port] 0 [Flags] 2 [Guid] 3162447495 [EditorId] 3162447495 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EEE4NBNL) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.10f1 (ff3792e53c62)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/erimo/OneDrive - Politecnico di Milano/Desktop/Git/E-Health-Project/EcoQuest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7094 MB
+    Driver:   30.0.13032.4000
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.022300 seconds.
+- Loaded All Assemblies, in  0.746 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.562 seconds
+Domain Reload Profiling: 1304ms
+	BeginReloadAssembly (206ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (147ms)
+	LoadAllAssembliesAndSetupDomain (305ms)
+		LoadAssemblies (204ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (301ms)
+			TypeCache.Refresh (297ms)
+				TypeCache.ScanAssembly (272ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (562ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (434ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (292ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.486 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.707 seconds
+Domain Reload Profiling: 1189ms
+	BeginReloadAssembly (295ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (13ms)
+		LoadAssemblies (175ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (8ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (708ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (414ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			SetLoadedEditorAssemblies (12ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 10 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3 unused Assets / (48.9 KB). Loaded Objects now: 505.
+Memory consumption went from 63.6 MB to 63.5 MB.
+Total: 4.357900 ms (FindLiveObjects: 0.118600 ms CreateObjectMapping: 0.011200 ms MarkObjects: 4.102000 ms  DeleteObjects: 0.124000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 426008.616816 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Muscle_01.prefab
+  artifactKey: Guid(edf6cb56e12fba648b2cf1e7dfa5bf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Muscle_01.prefab using Guid(edf6cb56e12fba648b2cf1e7dfa5bf88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e06b69ee7e6302cec0c2c758a3949b8e') in 0.341928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Police_01.prefab
+  artifactKey: Guid(f539f0390d17a9f4a922b722e47998fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Police_01.prefab using Guid(f539f0390d17a9f4a922b722e47998fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '525058a829fa450fdccb39a393e319b3') in 0.049769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Medium_01.prefab
+  artifactKey: Guid(fcd06c9319e99cc4bbee7ce7730d9422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Medium_01.prefab using Guid(fcd06c9319e99cc4bbee7ce7730d9422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b637b74b5554ac2be6be54ef3e4200') in 0.042745 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Van_01.prefab
+  artifactKey: Guid(94469aeaca2d49442af381840b70bb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Van_01.prefab using Guid(94469aeaca2d49442af381840b70bb6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c9d63c0b86c0e71fd802836c03d454') in 0.043481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Taxi_01.prefab
+  artifactKey: Guid(a916a44328d322240bd1aaaca22fc8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Taxi_01.prefab using Guid(a916a44328d322240bd1aaaca22fc8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a62d41d4b2c63895b4665703902a45') in 0.042902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Prefabs/Vehicles
+  artifactKey: Guid(ba1c4b9af41a9834789776f6d0398b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Prefabs/Vehicles using Guid(ba1c4b9af41a9834789776f6d0398b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c7215d98faa8a714fc37ab54ddd5633') in 0.000796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Small_01.prefab
+  artifactKey: Guid(0383b854a926f1643b20f9c7cdb2e4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Small_01.prefab using Guid(0383b854a926f1643b20f9c7cdb2e4de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '177a7bfc5d7779c500b1a943ac2ee46a') in 0.041968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Ambo_01.prefab
+  artifactKey: Guid(416c46ca128db5f4bb76f235b4f991d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Ambo_01.prefab using Guid(416c46ca128db5f4bb76f235b4f991d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b476df53d707be58d3436086cac9821') in 0.042101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Sedan_01.prefab
+  artifactKey: Guid(85ac88d7c46e0ea4583870a98cc13580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Prefabs/Vehicles/SM_Veh_Car_Sedan_01.prefab using Guid(85ac88d7c46e0ea4583870a98cc13580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd5b764112122ab3365f26232106976') in 0.044605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 57
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/SyntyStudios/PolygonCity/Prefabs/Vehicles/SM_Veh_Steering_Wheel_01.prefab
+  artifactKey: Guid(722e3b426f61a5e44b0cfe828760da3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SyntyStudios/PolygonCity/Prefabs/Vehicles/SM_Veh_Steering_Wheel_01.prefab using Guid(722e3b426f61a5e44b0cfe828760da3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07b5659ab1b9b3f541d33e33af4d3cae') in 0.052870 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 85.058931 seconds.
+  path: Assets/Understone/Free Bike Pack/Prefabs
+  artifactKey: Guid(8090279d462ed54469314c7e42df5ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Free Bike Pack/Prefabs using Guid(8090279d462ed54469314c7e42df5ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022916f297692422f910b3b990ece4f2') in 0.000977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.081120 seconds.
+  path: Assets/Understone/Free Bike Pack/Prefabs/BMXBikeE.prefab
+  artifactKey: Guid(1539865e7e6633d48ae273348fe7f433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Free Bike Pack/Prefabs/BMXBikeE.prefab using Guid(1539865e7e6633d48ae273348fe7f433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6125845b59f5e17c300db77105720bdb') in 0.033684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 64
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Understone/Free Bike Pack/Prefabs/RedLine.prefab
+  artifactKey: Guid(0ec61be6c70e866408ea1aa3980ebf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Free Bike Pack/Prefabs/RedLine.prefab using Guid(0ec61be6c70e866408ea1aa3980ebf3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd4646b761247a65f399efa783a40f5') in 0.045379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Understone/Free Bike Pack/Prefabs/RampB.prefab
+  artifactKey: Guid(0d3ff791a1ebea045808c0a134ebe212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Free Bike Pack/Prefabs/RampB.prefab using Guid(0d3ff791a1ebea045808c0a134ebe212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7475eb75ae6f791d7389250e526d43d5') in 0.039108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 3.489710 seconds.
+  path: Assets/Understone/Free Bike Pack/Models
+  artifactKey: Guid(0c6a4d3f1d667d842a0b14902fe02177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Free Bike Pack/Models using Guid(0c6a4d3f1d667d842a0b14902fe02177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9f93df4450f214c8120e8839bf2c28') in 0.001010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.045287 seconds.
+  path: Assets/Understone/Free Bike Pack/Models/RampB.fbx
+  artifactKey: Guid(e57e1f53640856944be5544e095def98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Free Bike Pack/Models/RampB.fbx using Guid(e57e1f53640856944be5544e095def98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9139314ce2ee03d1ed08069e9cb9e38') in 0.079236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Understone/Free Bike Pack/Models/RedLine.fbx
+  artifactKey: Guid(9bdd973f499a47a4f84b1f27f912ae43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Free Bike Pack/Models/RedLine.fbx using Guid(9bdd973f499a47a4f84b1f27f912ae43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42330f860858168465c0d53dbbcc7b08') in 0.038404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 4.246342 seconds.
+  path: Assets/Understone/Free Bike Pack/Scenes
+  artifactKey: Guid(f93824cb1cc77704d932a32e6601bbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Free Bike Pack/Scenes using Guid(f93824cb1cc77704d932a32e6601bbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6a67aef1947042cdecfaa272ac140e') in 0.001005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.005170 seconds.
+  path: Assets/Understone/Free Bike Pack/Materials
+  artifactKey: Guid(a23863e58a2ebf84aa3b2290b95a3362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Free Bike Pack/Materials using Guid(a23863e58a2ebf84aa3b2290b95a3362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a08183efd7e635e0c55ef2e8508bae') in 0.000953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.067680 seconds.
+  path: Assets/Understone/Free Bike Pack/Materials/Black040404.mat
+  artifactKey: Guid(f71bc46511f700d44886dfc6ba7aead0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Free Bike Pack/Materials/Black040404.mat using Guid(f71bc46511f700d44886dfc6ba7aead0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '618e0ee4237445edbcfa0bb5e1658ae3') in 0.072944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Understone/Free Bike Pack/Materials/WhiteCCCCCC.mat
+  artifactKey: Guid(79a05ac1e11eb3940a7f5a6900c0b115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Free Bike Pack/Materials/WhiteCCCCCC.mat using Guid(79a05ac1e11eb3940a7f5a6900c0b115) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c85d1eb4f2cfc79311be90632d25b6df') in 0.029103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Understone/Free Bike Pack/Materials/DarkGrey242424.mat
+  artifactKey: Guid(b82b941ffddf6b64486d30d053315c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Free Bike Pack/Materials/DarkGrey242424.mat using Guid(b82b941ffddf6b64486d30d053315c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '332bd6d5e5a63077dfe9ccf14b0a9ab9') in 0.026586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Understone/Free Bike Pack/Materials/RedCC0405.mat
+  artifactKey: Guid(c7c8764223e35c04a95193669ac279e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Free Bike Pack/Materials/RedCC0405.mat using Guid(c7c8764223e35c04a95193669ac279e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77eb946448ccf6326e6c84370be1d6be') in 0.025401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Understone/Free Bike Pack/Materials/grey757575.mat
+  artifactKey: Guid(f326ee2bfe0f66e4fb4f1cccb7346933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Understone/Free Bike Pack/Materials/grey757575.mat using Guid(f326ee2bfe0f66e4fb4f1cccb7346933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0470b13575993087b294cfff36f6a0e') in 0.025316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
